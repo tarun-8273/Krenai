@@ -14,13 +14,10 @@ const ProfileScreen = () => {
     password: Yup.string().min(8).required('Please enter your password.'),
   });
 
-  console.log('dsdsdsdsdsd');
-
   const handleLogin = values => {
     console.log('Login button pressed');
-    // Handle login logic here
-    console.log('lokesh');
-    Alert.alert('tryey');
+    console.log('Tarun');
+    Alert.alert('Alert');
   };
 
   return (
